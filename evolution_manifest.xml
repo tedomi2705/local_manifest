@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Evolution-X-Devices/device_xiaomi_tulip" path="device/xiaomi/tulip" remote="github" revision="snow" />
+  <project name="tedomi2705/device_xiaomi_tulip" path="device/xiaomi/tulip" remote="github" revision="snow" />
   <project name="Evolution-X-Devices/vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="github" revision="snow" />
   <project name="Evolution-X-Devices/kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="eas" />
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
