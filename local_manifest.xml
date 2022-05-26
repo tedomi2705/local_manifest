@@ -4,5 +4,5 @@
 
   <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="tedomi2705" revision="snow-rebase" />
   <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="tedomi2705" revision="rebase" />
-  <project name="Evolution-X-Devices/kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="eas" />
+  <project name="crdroidandroid/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="12.1" />
 </manifest>
