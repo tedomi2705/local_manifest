@@ -5,4 +5,6 @@
   <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="tedomi2705" revision="snow-rebase" />
   <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="tedomi2705" revision="rebase" />
   <project name="crdroidandroid/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="12.1" />
+  <!-- use trb clang -->
+  <project name="varunhardgamer/trb_clang" path="prebuilts/clang/host/linux-x86/clang-trb" remote="gitlab" revision="15" clone-depth="1" />
 </manifest>
