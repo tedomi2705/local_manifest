@@ -2,7 +2,7 @@
 <manifest>
   <remote name="tedomi2705" fetch="https://github.com/tedomi2705" />
 
-  <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="tedomi2705" revision="snow" />
+  <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="tedomi2705" revision="snow-unstable" />
   <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="tedomi2705" revision="rebase" />
   <project name="evolution_security" path="vendor/evolution/build/target/product/security" remote="tedomi2705" revision="master" />
 
