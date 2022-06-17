@@ -10,7 +10,7 @@
   <!-- use prelude clang -->
   <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" />
   <!-- pixel launcher mod -->
-  <project name="tedomi2705/vendor_PixelLauncher" path="vendor/PixelLauncher" remote="github" revision="khonsu" />
+  <project name="tedomi2705/vendor_PixelLauncher" path="vendor/PixelLauncher" remote="github" revision="dt2s" />
   <!-- ArrowOS HAL -->
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
