@@ -13,8 +13,8 @@
   <!-- ArrowOS HAL -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
   <!-- <project name="ArrowOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="github" revision="arrow-12.1-caf-msm8998" /> -->
   <!-- <project name="ArrowOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="github" revision="arrow-12.1-caf-msm8998" /> -->
-  <project name="anrui2032-OpenSource/android_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="github" revision="tiramisu" /> 
+  <!-- <project name="anrui2032-OpenSource/android_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="github" revision="tiramisu" />  -->
 </manifest>
