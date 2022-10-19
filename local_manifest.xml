@@ -7,7 +7,7 @@
 
   <project name="SebaUbuntu/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-19.1" />
   <!-- use prelude clang -->
-  <!-- <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" /> -->
+  <project name="jjpprrrr/prelude-clang" path="prebuilts/clang/host/linux-x86/clang-prelude" remote="gitlab" revision="master" clone-depth="1" />
   <!-- gcam -->
   <!-- <project name="arturo51236/vendor_xiaomi_gcam" path="vendor/xiaomi/gcam" remote="github" revision="12.1" /> -->
   <!-- ArrowOS HAL -->
