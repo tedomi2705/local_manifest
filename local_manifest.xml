@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="tedomi2705" fetch="https://github.com/tedomi2705" />
-
-  <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="tedomi2705" revision="snow" />
-  <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="tedomi2705" revision="snow" />
-  <project name="evolution_security" path="vendor/evolution/build/target/product/security" remote="tedomi2705" revision="master" />
-
-  <project name="crdroidandroid/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="12.1-testing" />
-  <!-- use prelude clang -->
-  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" />
-  <!-- pixel launcher mod -->
-  <project name="tedomi2705/vendor_PixelLauncher" path="vendor/PixelLauncher" remote="github" revision="dt2s" />
-  <!-- gcam -->
-  <project name="arturo51236/vendor_xiaomi_gcam" path="vendor/xiaomi/gcam" remote="github" revision="12.1" />
-  <!-- ArrowOS HAL -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <project name="ArrowOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="github" revision="arrow-12.1-caf-msm8998" />
-  <project name="ArrowOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="github" revision="arrow-12.1-caf-msm8998" />
-  <project name="ArrowOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="github" revision="arrow-12.1-caf-msm8998" />
+  <project path="device/xiaomi/tulip" remote="evo-devices" name="device_xiaomi_tulip" revision="tiramisu" />
+  <project path="vendor/xiaomi/tulip" remote="evo-devices" name="vendor_xiaomi_tulip" revision="tiramisu" />
+  <project path="kernel/xiaomi/sdm660" remote="evo-devices" name="kernel_xiaomi_sdm660" revision="12.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" name="kdrag0n/proton-clang" revision="master" clone-depth="1" />
 </manifest>
