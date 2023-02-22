@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="tedomi2705" fetch="https://github.com/tedomi2705/" />
+
   <project path="device/xiaomi/tulip" remote="evo-devices" name="device_xiaomi_tulip" revision="tiramisu" />
+  <project path="vendor/xiaomi/tulip" remote="evo-devices" name="vendor_xiaomi_tulip" revision="tiramisu" />
+  <project path="kernel/xiaomi/sdm660" remote="evo-devices" name="kernel_xiaomi_sdm660" revision="tiramisu" />
+  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" remote="gitlab" name="GhostMaster69-dev/cosmic-clang" revision="master" clone-depth="1" />
+
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
 </manifest>
