@@ -5,5 +5,4 @@
   <project name="vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="evo-devices" revision="udc" />
   <project name="kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="evo-devices" revision="udc" />
   <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="evo-devices" revision="udc" />
-  <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 </manifest>
