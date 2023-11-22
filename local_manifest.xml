@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="device_xiaomi_tulip" path="device/xiaomi/tulip" remote="evo-devices" revision="udc" />
-  <project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="evo-devices" revision="udc" />
-  <project name="vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="evo-devices" revision="udc" />
-  <project name="kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="evo-devices" revision="udc" />
-  <project name="vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="evo-devices" revision="udc" />
+  <remove-project name="vendor_firmware" />
+  <project path="device/xiaomi/tulip" remote="evo-devices" name="device_xiaomi_tulip" revision="udc" />
+  <project path="device/xiaomi/sdm660-common" remote="evo-devices" name="device_xiaomi_sdm660-common" revision="udc" />
+  <project path="vendor/xiaomi/sdm660-common" remote="evo-devices" name="vendor_xiaomi_sdm660-common" revision="udc" />
+  <project path="kernel/xiaomi/sdm660" remote="evo-devices" name="kernel_xiaomi_sdm660" revision="udc" />
+  <project path="vendor/xiaomi/tulip" remote="evo-devices" name="vendor_xiaomi_tulip" revision="udc" />
 </manifest>
