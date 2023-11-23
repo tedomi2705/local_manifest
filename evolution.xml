@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="vendor_firmware" />
   <project path="device/xiaomi/tulip" remote="evo-devices" name="device_xiaomi_tulip" revision="udc" />
   <project path="device/xiaomi/sdm660-common" remote="evo-devices" name="device_xiaomi_sdm660-common" revision="udc" />
   <project path="vendor/xiaomi/sdm660-common" remote="evo-devices" name="vendor_xiaomi_sdm660-common" revision="udc" />
