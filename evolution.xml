@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--   <project path="device/xiaomi/tulip" remote="evo-devices" name="device_xiaomi_tulip" revision="udc" />
-  <project path="kernel/xiaomi/tulip" remote="evo-devices" name="kernel_xiaomi_tulip" revision="udc" />
-  <project path="vendor/xiaomi/tulip" remote="evo-devices" name="vendor_xiaomi_tulip" revision="udc" /> -->
+  <project path="device/xiaomi/twolip" remote="github" name="Evolution-X-Devices/device_xiaomi_tulip" revision="xyz" />
+  <project path="kernel/xiaomi/tulip" remote="github" name="Evolution-X-Devices/kernel_xiaomi_tulip" revision="udc" />
+  <project path="vendor/xiaomi/twolip" remote="github" name="Evolution-X-Devices/vendor_xiaomi_tulip" revision="xyz" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21"/>
 </manifest>
