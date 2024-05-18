@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/twolip" remote="github" name="Evolution-X-Devices/device_xiaomi_tulip" revision="xyz" />
-  <project path="kernel/xiaomi/tulip" remote="github" name="Evolution-X-Devices/kernel_xiaomi_tulip" revision="udc" />
-  <project path="vendor/xiaomi/twolip" remote="github" name="Evolution-X-Devices/vendor_xiaomi_tulip" revision="xyz" />
+
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+
+  <project path="hardware/qcom-caf/msm8998/display" name="Evolution-X/hardware_qcom-caf_sdm660_display" remote="github" revision="udc" />
+  <project path="hardware/qcom-caf/msm8998/media" name="Evolution-X/hardware_qcom-caf_sdm660_media" remote="github" revision="udc" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="Evolution-X/hardware_qcom-caf_sdm660_audio" remote="github" revision="udc" />
+
+  <project path="kernel/xiaomi/sdm660" remote="github" name="lilium-vayre/kernel_xiaomi_sdm660" revision="lineage-21" />
+
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21"/>
 </manifest>
