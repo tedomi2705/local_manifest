@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/twolip" remote="github" name="Evolution-X-Devices/device_xiaomi_tulip" revision="xyz" />
-  <project path="kernel/xiaomi/tulip" remote="github" name="Evolution-X-Devices/kernel_xiaomi_tulip" revision="udc" />
-  <project path="vendor/xiaomi/twolip" remote="github" name="Evolution-X-Devices/vendor_xiaomi_tulip" revision="xyz" />
+  <project path="device/xiaomi/beryllium" remote="github" name="tedomi2705/device_xiaomi_beryllium" revision="udc" />
+  <project path="vendor/xiaomi/beryllium" remote="github" name="tedomi2705/vendor_xiaomi_beryllium" revision="udc" />
+  <project path="kernel/xiaomi/sdm845" remote="github" name="tedomi2705/kernel_xiaomi_sdm845" revision="udc" />
+
+  <project path="device/xiaomi/sdm845-common" remote="github" name="tedomi2705/device_xiaomi_sdm845-common" revision="udc" />
+  <project path="vendor/xiaomi/sdm845-common" remote="github" name="tedomi2705/vendor_xiaomi_sdm845-common" revision="udc" />
+
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21"/>
 </manifest>
