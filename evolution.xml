@@ -7,5 +7,7 @@
   <project path="device/xiaomi/sdm845-common" remote="github" name="tedomi2705/device_xiaomi_sdm845-common" revision="udc" />
   <project path="vendor/xiaomi/sdm845-common" remote="github" name="tedomi2705/vendor_xiaomi_sdm845-common" revision="udc" />
 
+  <project path="vendor/miuicamera" remote="github" name="tedomi2705/vendor_miuicamera" revision="udc" />
+
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21"/>
 </manifest>
